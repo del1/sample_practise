@@ -42,5 +42,5 @@ $obj->getMyName('ankur' , 'techflirt', 'etc');//__call willl be executed
 Exp::xyz('1' , 'qpc' , 'test');//__callstatic will be executed
 //echo "<br>"."me in between"; //__construct get automatically executed and print 1 on screen
 //unset($objT);//__destruct triggers and print 2.
-
+echo "this is del";
 ?>
